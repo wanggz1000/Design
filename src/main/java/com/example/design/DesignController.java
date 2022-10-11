@@ -18,4 +18,9 @@ public class DesignController {
     public String Red(String green){
         return a.Red(green);
     }
+
+    @RequestMapping("/blue")
+    public String Blue(String orange){
+        return a.Blue(orange);
+    }
 }

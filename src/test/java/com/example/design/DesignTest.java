@@ -24,4 +24,13 @@ public class DesignTest {
         String result = exp.Red(a);
         assertEquals(expectedResult,result);
     }
+
+    @Test
+    void blueTest1(){
+        String a = "blue";
+        String expectedResult = "orange";
+        String result = exp.Blue(a);
+        assertEquals(expectedResult,result);
+    }
+
 }

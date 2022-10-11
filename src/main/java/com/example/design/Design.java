@@ -9,4 +9,8 @@ public class Design {
     public String Green(String green){
         return "red";
     }
+
+    public String Blue(String blue){
+        return "orange";
+    }
 }
